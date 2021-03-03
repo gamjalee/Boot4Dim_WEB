@@ -1,0 +1,80 @@
+@font-face {
+    font-family:나눔고딕, 나눔스퀘어 Extrabold;
+    src: url('./static/fonts/나눔고딕.ttf');
+    src: url('./static/fonts/나눔스퀘어 Extrabold.ttf');
+  
+  }  
+
+h1 {
+    display: flex;
+    color: #ffffff;
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-color: #e2fdff;
+}
+
+li {
+    color: white;
+}
+
+ol{
+    line-height: 180%;
+  }
+
+#nowHere{
+    color:red;
+    text-decoration: underline;
+    font-family:나눔스퀘어 Extrabold;
+} /*커서가 올라가면 underline과 빨간글씨 표시하기 위한 것*/
+
+table, tr, td{
+    border : 1px solid balck;
+    text-align: center;
+}
+td{
+    width: 20px;
+}
+
+/*
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+    color: #4a69bd;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    /* Layer의 번호 설정 */
+    /*z-index: -1;
+
+    animation: fadeIn 0.5s linear;
+
+
+}
+*/
